@@ -21,11 +21,11 @@ Usage
 ```php
 
 $form = new \Nette\Forms\Form;
-$form->addComponent(new \Nella\Forms\Phone\PhoneNumberInput('Phone'), 'phone');
+$form->addComponent(new \Nella\Forms\Controls\PhoneNumberInput('Phone'), 'phone');
 
 // or
 
-\Nella\Forms\Phone\PhoneNumberInput::register();
+\Nella\Forms\Controls\PhoneNumberInput::register();
 $form->addPhone('phone', 'Phone');
 
 // Optional phone number validation
